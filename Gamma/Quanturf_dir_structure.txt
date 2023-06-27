@@ -1,0 +1,40 @@
+Quanturf
+|- Alpha
+|- Trade_board
+|- Gamma
+    |
+    |-DasboardGamma
+        |
+        |- Backend
+            |
+            |- helpers
+            |- live_trading
+                |
+                |- live_trading_calculations.py
+                |- live_trading_helpers.py
+                |- live_trading.py
+            |- app.py
+            |-requirments.txt
+        |
+        |- BaseStrategy
+            |- BaseStrategy.py
+        
+        |- data
+        |- quanturf_Gammaboard
+        |- resources
+            |- crossover_strategy.csv
+            |- transaction.json
+        |- strategies
+            |- pairs_trading.py
+            |- smaCross.py
+            |- svm_wavelet.py
+            |- But_N_Hold.py
+            |- payday.py
+        |- Templates
+            |- pairs_trading.py
+            |- smaCross.py
+            |- svm_wavelet.py
+        |- .env
+        |- logfile.json
+        |- quantstats-tearsheet.html
+    |- .env
